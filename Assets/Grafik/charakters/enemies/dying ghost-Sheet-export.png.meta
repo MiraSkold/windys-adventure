@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -121,7 +121,427 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: dying ghost-Sheet-export_0
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 41
+        width: 124
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130db0f5239c04f42aa3da2f198bd3e5
+      internalID: -1648628164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dying ghost-Sheet-export_1
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 41
+        width: 119
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f8a34ce80fadd4897bf993a6df89b7
+      internalID: 1339786424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dying ghost-Sheet-export_2
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 41
+        width: 123
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c04b78c21366b34c826971154b9643c
+      internalID: 1572354853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dying ghost-Sheet-export_3
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 37
+        width: 127
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1abff9b26680e46b6c2fe5173d220a
+      internalID: -1422633513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dying ghost-Sheet-export_4
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 37
+        width: 123
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bc13919a4549f419d3f5c37d0b11b0
+      internalID: 1151260017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dying ghost-Sheet-export_5
+      rect:
+        serializedVersion: 2
+        x: 2137
+        y: 37
+        width: 127
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566ae76df293f064687d58be8901beb1
+      internalID: -1424952216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dying ghost-Sheet-export_6
+      rect:
+        serializedVersion: 2
+        x: 2535
+        y: 37
+        width: 131
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f69ee9383e2b8948a0d36bff1639d8f
+      internalID: 1184129254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dying ghost-Sheet-export_7
+      rect:
+        serializedVersion: 2
+        x: 2933
+        y: 37
+        width: 135
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e77b1f955a20304990abd8cdaf1970b
+      internalID: -1898933655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dying ghost-Sheet-export_8
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 33
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05050993d2337e498a909622754dabe
+      internalID: -1997722889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dying ghost-Sheet-export_9
+      rect:
+        serializedVersion: 2
+        x: 3724
+        y: 33
+        width: 160
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a05cab92b3ae8448324a2107d381d2
+      internalID: 461167832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dying ghost-Sheet-export_10
+      rect:
+        serializedVersion: 2
+        x: 4118
+        y: 24
+        width: 168
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f748dd806aa1c43bbc12fdeb38af0e
+      internalID: -872381076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dying ghost-Sheet-export_11
+      rect:
+        serializedVersion: 2
+        x: 4516
+        y: 24
+        width: 172
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1afc13bb303c24691dda1f4c673dff
+      internalID: -1892026920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dying ghost-Sheet-export_12
+      rect:
+        serializedVersion: 2
+        x: 4914
+        y: 24
+        width: 172
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c79bf774f76874d9251775cdb690c4
+      internalID: 817010366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dying ghost-Sheet-export_13
+      rect:
+        serializedVersion: 2
+        x: 5303
+        y: 24
+        width: 189
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83068f549cc403409025ed181ad48dc
+      internalID: -1855247461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dying ghost-Sheet-export_14
+      rect:
+        serializedVersion: 2
+        x: 5705
+        y: 24
+        width: 185
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecaac2d0d9aeb8046837920aa0903f02
+      internalID: -1997875105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dying ghost-Sheet-export_15
+      rect:
+        serializedVersion: 2
+        x: 6103
+        y: 24
+        width: 189
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c51bb92c6afe84db8b185603e57033
+      internalID: 494478597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dying ghost-Sheet-export_16
+      rect:
+        serializedVersion: 2
+        x: 6505
+        y: 24
+        width: 185
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94479cff0b5adb344875acfb7925351b
+      internalID: 1879184406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dying ghost-Sheet-export_17
+      rect:
+        serializedVersion: 2
+        x: 6903
+        y: 24
+        width: 189
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87dc73fe0fe167f4f9da447a1d6c5ca9
+      internalID: -986019526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dying ghost-Sheet-export_18
+      rect:
+        serializedVersion: 2
+        x: 7305
+        y: 24
+        width: 184
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1adffe3ac97242f4ba8153f65d1e7f9d
+      internalID: -1661912949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dying ghost-Sheet-export_19
+      rect:
+        serializedVersion: 2
+        x: 7703
+        y: 24
+        width: 188
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83cea899b957802409c37f5f68531c53
+      internalID: 1524550413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +552,27 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dying ghost-Sheet-export_0: -1648628164
+      dying ghost-Sheet-export_1: 1339786424
+      dying ghost-Sheet-export_10: -872381076
+      dying ghost-Sheet-export_11: -1892026920
+      dying ghost-Sheet-export_12: 817010366
+      dying ghost-Sheet-export_13: -1855247461
+      dying ghost-Sheet-export_14: -1997875105
+      dying ghost-Sheet-export_15: 494478597
+      dying ghost-Sheet-export_16: 1879184406
+      dying ghost-Sheet-export_17: -986019526
+      dying ghost-Sheet-export_18: -1661912949
+      dying ghost-Sheet-export_19: 1524550413
+      dying ghost-Sheet-export_2: 1572354853
+      dying ghost-Sheet-export_3: -1422633513
+      dying ghost-Sheet-export_4: 1151260017
+      dying ghost-Sheet-export_5: -1424952216
+      dying ghost-Sheet-export_6: 1184129254
+      dying ghost-Sheet-export_7: -1898933655
+      dying ghost-Sheet-export_8: -1997722889
+      dying ghost-Sheet-export_9: 461167832
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

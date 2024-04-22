@@ -1,7 +1,4 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class newplayermovement : MonoBehaviour
@@ -9,20 +6,22 @@ public class newplayermovement : MonoBehaviour
     float horizontalInput;
     float moveSpeed = 5f;
     bool isFacingRight = false;
-   
-    
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
-    
+
     Animator animator;
+    public GameObject attackpoint;
+    public float radius;
+    public LayerMask enemies;
+    public float damage;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-       
+
     }
 
     // Update is called once per frame
@@ -40,20 +39,21 @@ public class newplayermovement : MonoBehaviour
             animator.SetBool("isJumping", true);
         }
 
-       
+
     }
-    
-    private void FixedUpdate() 
+
+    private void FixedUpdate()
     {
         rb.velocity = new Vector2(horizontalInput * moveSpeed, rb.velocity.y);
         bool isWalking = Math.Abs(rb.velocity.x) > 0;
         bool isAttacking = Input.GetMouseButtonDown(0);
 
-        animator.SetBool ("isWalking", isWalking);
-        animator.SetBool ("isIdle", ! isWalking && !isAttacking);
-        animator.SetBool ("isAttacking", isAttacking);
+        animator.SetBool("isWalking", isWalking);
+        animator.SetBool("isIdle", !isWalking && !isAttacking);
+        animator.SetBool("isAttacking", isAttacking);
 
-        if (rb.velocity.y == 0) {
+        if (rb.velocity.y == 0)
+        {
             if (horizontalInput > .1f || horizontalInput < -.1f)
             {
                 animator.SetBool("isWalking", true);
@@ -64,19 +64,32 @@ public class newplayermovement : MonoBehaviour
                 animator.SetBool("isIdle", true);
             }
 
-            
+
         }
         if (Input.GetMouseButtonDown(0))
         {
-           
+
             animator.SetBool("isAttacking", true);
-    
-               
 
-           
+
+
+
         }
+        Collider2D[] enemy = Physics2D.OverlapCircleAll(attackpoint.transform.position, radius, enemies);
 
+        foreach (Collider2D enemyGameobject in enemy)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                Debug.Log("hit enemy");
+                enemyGameobject.GetComponent<enemy>().enemyHealth -= damage;
+                Debug.Log("hit enemy");
+                enemyGameobject.GetComponent<warewolf>().wareWolfHealth -= damage;
+            }
+
+        }
     }
+    
     void FlipSprite()
     {
         if (isFacingRight && horizontalInput < 0f || !isFacingRight && horizontalInput > 0f)
@@ -87,5 +100,8 @@ public class newplayermovement : MonoBehaviour
             transform.localScale = Is;
         }
     }
-    
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawWireSphere(attackpoint.transform.position, radius);
+    }
 }

@@ -1,25 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class enemy : MonoBehaviour
+public class timer : MonoBehaviour
 {
-    public float enemyHealth;
+    public float Timer;
+    public Text timerText;
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
-    
+
     // Update is called once per frame
     void Update()
     {
-        if(enemyHealth <= 0)
-        {
-            Debug.Log("enemy is dead");
-            Destroy(gameObject);
-        }
+        Timer += Time.deltaTime;
+        timerText.text = Timer.ToString("F2");
     }
-    
-    
 }
