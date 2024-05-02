@@ -83,8 +83,8 @@ public class newplayermovement : MonoBehaviour
             {
                 Debug.Log("hit enemy");
                 enemyGameobject.GetComponent<enemy>().enemyHealth -= damage;
-                Debug.Log("hit enemy");
-                enemyGameobject.GetComponent<warewolf>().wareWolfHealth -= damage;
+
+                
             }
 
         }
